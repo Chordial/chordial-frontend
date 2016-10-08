@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:Chordial" x:Class="Chordial.ChordialPage">
-	<Label Text="Welcome to Xamarin Forms!" VerticalOptions="Center" HorizontalOptions="Center" />
+	<StackLayout Spacing="10" x:Name="tempLayout">
+		<Label Text="This will one day be the Chordial app!" VerticalOptions="CenterAndExpand" HorizontalOptions="Center" />
+		<Label Text="Add your name and button below this line" VerticalOptions="CenterAndExpand" HorizontalOptions="Center" />
+		<Label Text="Rick 👽" VerticalOptions="CenterAndExpand" HorizontalOptions="Center" />
+		<Button x:Name="rickButton" Text="Rick's Button" Clicked="OnClickRick" />
+		<!-- Put your names and buttons here! Use my example. -->
+	</StackLayout>
 </ContentPage>
