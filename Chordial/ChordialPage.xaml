@@ -6,5 +6,7 @@
 		<Label Text="Rick 👽" VerticalOptions="CenterAndExpand" HorizontalOptions="Center" />
 		<Button x:Name="rickButton" Text="Rick's Button" Clicked="OnClickRick" />
 		<!-- Put your names and buttons here! Use my example. -->
+		<Label Text="Swaghil!" VerticalOptions="CenterAndExpand" HorizontalOptions="Center" />
+		<Button x:Name="swaghilButton" Text="Swaghil's Button" Clicked="OnClickSwaghil" />
 	</StackLayout>
 </ContentPage>
