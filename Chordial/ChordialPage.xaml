@@ -8,5 +8,7 @@
 		<!-- Put your names and buttons here! Use my example. -->
 		<Label Text="Swaghil!" VerticalOptions="CenterAndExpand" HorizontalOptions="Center" />
 		<Button x:Name="swaghilButton" Text="Swaghil's Button" Clicked="OnClickSwaghil" />
+		<Label Text="Ziv" VerticalOptions="CenterAndExpand" HorizontalOptions="Center" />
+		<Button x:Name="zivButton" Text="Ziv's Button" Clicked="OnClickZiv" />
 	</StackLayout>
 </ContentPage>

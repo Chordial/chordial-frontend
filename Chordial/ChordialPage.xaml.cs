@@ -23,5 +23,18 @@ namespace Chordial
 			await this.DisplayAlert("Swaghil!", "Is Swaghil the best?", "Yes", "Yes \ud83d\ude0e");
 		}
 
+		async void OnClickZiv(object sender, EventArgs e)
+		{
+			var response = await this.DisplayAlert("Important Question", "Is the cake a lie? \uD83C\uDF82", "Yes", "No");
+			if (response){
+				await this.DisplayAlert("", "Fine, no cake for you.", ":(");
+			}
+			else {
+				await this.DisplayAlert("", "Good.", ":)");
+			}
+
+		}
+
+
 	}
 }
