@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C08E0D01DF78D7400E462ED /* 2241-07-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C08E0CF1DF78D7400E462ED /* 2241-07-3.jpg */; };
+		4C08E0D21DF7954E00E462ED /* default_song_album.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C08E0D11DF7954E00E462ED /* default_song_album.jpg */; };
+		4C7826301DF58E5B00D0F358 /* SongCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C78262F1DF58E5B00D0F358 /* SongCell.swift */; };
+		4CCFF5E21DF6350E00864B86 /* QueueButtonIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCFF5E11DF6350E00864B86 /* QueueButtonIcon.png */; };
+		4CCFF5E41DF635F400864B86 /* QueueButtonIconPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCFF5E31DF635F400864B86 /* QueueButtonIconPressed.png */; };
+		4CCFF5E61DF6367900864B86 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCFF5E51DF6367900864B86 /* PlayerViewController.swift */; };
+		4CCFF5E81DF63A1F00864B86 /* QueueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCFF5E71DF63A1F00864B86 /* QueueViewController.swift */; };
+		4CCFF5EA1DF682AB00864B86 /* ChordialRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCFF5E91DF682AB00864B86 /* ChordialRequests.swift */; };
+		4CCFF5EC1DF687C800864B86 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCFF5EB1DF687C800864B86 /* MainViewController.swift */; };
+		4CCFF5EE1DF6912E00864B86 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCFF5ED1DF6912E00864B86 /* SwiftyJSON.swift */; };
+		4CCFF5F01DF69F9500864B86 /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCFF5EF1DF69F9500864B86 /* FriendsViewController.swift */; };
+		4CCFF5F21DF6A5EA00864B86 /* JoinSessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCFF5F11DF6A5EA00864B86 /* JoinSessionViewController.swift */; };
+		4CCFF5F41DF7540000864B86 /* CreateSessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCFF5F31DF7540000864B86 /* CreateSessionViewController.swift */; };
+		4CD2954E1DF37192003C0CDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD2954D1DF37192003C0CDD /* AppDelegate.swift */; };
+		4CD295501DF37192003C0CDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD2954F1DF37192003C0CDD /* ViewController.swift */; };
+		4CD295531DF37192003C0CDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CD295511DF37192003C0CDD /* Main.storyboard */; };
+		4CD295551DF37192003C0CDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CD295541DF37192003C0CDD /* Assets.xcassets */; };
+		4CD295581DF37192003C0CDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CD295561DF37192003C0CDD /* LaunchScreen.storyboard */; };
+		4CD295631DF37192003C0CDD /* Chordial_MusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD295621DF37192003C0CDD /* Chordial_MusicTests.swift */; };
+		4CD2956E1DF37192003C0CDD /* Chordial_MusicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD2956D1DF37192003C0CDD /* Chordial_MusicUITests.swift */; };
+		4CD2957D1DF3745B003C0CDD /* Spotify.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD2957C1DF3745B003C0CDD /* Spotify.m */; };
+		4CD295811DF37639003C0CDD /* SpotifyAudioPlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CD2957F1DF37639003C0CDD /* SpotifyAudioPlayback.framework */; };
+		4CD295821DF37639003C0CDD /* SpotifyAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CD295801DF37639003C0CDD /* SpotifyAuthentication.framework */; };
+		4CD295851DF376FA003C0CDD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CD295841DF376FA003C0CDD /* AVFoundation.framework */; };
+		4CD295871DF376FF003C0CDD /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CD295861DF376FF003C0CDD /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CD2955F1DF37192003C0CDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CD295421DF37192003C0CDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CD295491DF37192003C0CDD;
+			remoteInfo = "Chordial-Music";
+		};
+		4CD2956A1DF37192003C0CDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CD295421DF37192003C0CDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CD295491DF37192003C0CDD;
+			remoteInfo = "Chordial-Music";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C08E0CF1DF78D7400E462ED /* 2241-07-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2241-07-3.jpg"; sourceTree = "<group>"; };
+		4C08E0D11DF7954E00E462ED /* default_song_album.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = default_song_album.jpg; sourceTree = "<group>"; };
+		4C78262F1DF58E5B00D0F358 /* SongCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongCell.swift; sourceTree = "<group>"; };
+		4CCFF5E11DF6350E00864B86 /* QueueButtonIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = QueueButtonIcon.png; sourceTree = "<group>"; };
+		4CCFF5E31DF635F400864B86 /* QueueButtonIconPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = QueueButtonIconPressed.png; sourceTree = "<group>"; };
+		4CCFF5E51DF6367900864B86 /* PlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		4CCFF5E71DF63A1F00864B86 /* QueueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueueViewController.swift; sourceTree = "<group>"; };
+		4CCFF5E91DF682AB00864B86 /* ChordialRequests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChordialRequests.swift; sourceTree = "<group>"; };
+		4CCFF5EB1DF687C800864B86 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		4CCFF5ED1DF6912E00864B86 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		4CCFF5EF1DF69F9500864B86 /* FriendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
+		4CCFF5F11DF6A5EA00864B86 /* JoinSessionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JoinSessionViewController.swift; sourceTree = "<group>"; };
+		4CCFF5F31DF7540000864B86 /* CreateSessionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateSessionViewController.swift; sourceTree = "<group>"; };
+		4CD2954A1DF37192003C0CDD /* Chordial-Music.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chordial-Music.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CD2954D1DF37192003C0CDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4CD2954F1DF37192003C0CDD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4CD295521DF37192003C0CDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CD295541DF37192003C0CDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CD295571DF37192003C0CDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4CD295591DF37192003C0CDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CD2955E1DF37192003C0CDD /* Chordial-MusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chordial-MusicTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CD295621DF37192003C0CDD /* Chordial_MusicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chordial_MusicTests.swift; sourceTree = "<group>"; };
+		4CD295641DF37192003C0CDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CD295691DF37192003C0CDD /* Chordial-MusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chordial-MusicUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CD2956D1DF37192003C0CDD /* Chordial_MusicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chordial_MusicUITests.swift; sourceTree = "<group>"; };
+		4CD2956F1DF37192003C0CDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CD2957B1DF3745A003C0CDD /* Chordial-Music-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Chordial-Music-Bridging-Header.h"; sourceTree = "<group>"; };
+		4CD2957C1DF3745B003C0CDD /* Spotify.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Spotify.m; sourceTree = "<group>"; };
+		4CD2957E1DF374D4003C0CDD /* Spotify.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Spotify.h; path = ../Spotify.h; sourceTree = "<group>"; };
+		4CD2957F1DF37639003C0CDD /* SpotifyAudioPlayback.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyAudioPlayback.framework; sourceTree = "<group>"; };
+		4CD295801DF37639003C0CDD /* SpotifyAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyAuthentication.framework; sourceTree = "<group>"; };
+		4CD295841DF376FA003C0CDD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4CD295861DF376FF003C0CDD /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CD295471DF37192003C0CDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CD295871DF376FF003C0CDD /* SystemConfiguration.framework in Frameworks */,
+				4CD295851DF376FA003C0CDD /* AVFoundation.framework in Frameworks */,
+				4CD295811DF37639003C0CDD /* SpotifyAudioPlayback.framework in Frameworks */,
+				4CD295821DF37639003C0CDD /* SpotifyAuthentication.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CD2955B1DF37192003C0CDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CD295661DF37192003C0CDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CD295411DF37192003C0CDD = {
+			isa = PBXGroup;
+			children = (
+				4CD2954C1DF37192003C0CDD /* Chordial-Music */,
+				4CD295611DF37192003C0CDD /* Chordial-MusicTests */,
+				4CD2956C1DF37192003C0CDD /* Chordial-MusicUITests */,
+				4CD2954B1DF37192003C0CDD /* Products */,
+				4CD295831DF3763D003C0CDD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4CD2954B1DF37192003C0CDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CD2954A1DF37192003C0CDD /* Chordial-Music.app */,
+				4CD2955E1DF37192003C0CDD /* Chordial-MusicTests.xctest */,
+				4CD295691DF37192003C0CDD /* Chordial-MusicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CD2954C1DF37192003C0CDD /* Chordial-Music */ = {
+			isa = PBXGroup;
+			children = (
+				4CD2954D1DF37192003C0CDD /* AppDelegate.swift */,
+				4CD2954F1DF37192003C0CDD /* ViewController.swift */,
+				4CD295511DF37192003C0CDD /* Main.storyboard */,
+				4CCFF5F31DF7540000864B86 /* CreateSessionViewController.swift */,
+				4CCFF5F11DF6A5EA00864B86 /* JoinSessionViewController.swift */,
+				4CCFF5EF1DF69F9500864B86 /* FriendsViewController.swift */,
+				4CCFF5EB1DF687C800864B86 /* MainViewController.swift */,
+				4CCFF5E71DF63A1F00864B86 /* QueueViewController.swift */,
+				4CCFF5E51DF6367900864B86 /* PlayerViewController.swift */,
+				4C78262F1DF58E5B00D0F358 /* SongCell.swift */,
+				4CCFF5ED1DF6912E00864B86 /* SwiftyJSON.swift */,
+				4CCFF5E91DF682AB00864B86 /* ChordialRequests.swift */,
+				4CD2957E1DF374D4003C0CDD /* Spotify.h */,
+				4CD2957C1DF3745B003C0CDD /* Spotify.m */,
+				4CD295541DF37192003C0CDD /* Assets.xcassets */,
+				4CD295561DF37192003C0CDD /* LaunchScreen.storyboard */,
+				4CD295591DF37192003C0CDD /* Info.plist */,
+				4C08E0D11DF7954E00E462ED /* default_song_album.jpg */,
+				4CD2957B1DF3745A003C0CDD /* Chordial-Music-Bridging-Header.h */,
+				4CCFF5E11DF6350E00864B86 /* QueueButtonIcon.png */,
+				4CCFF5E31DF635F400864B86 /* QueueButtonIconPressed.png */,
+				4C08E0CF1DF78D7400E462ED /* 2241-07-3.jpg */,
+			);
+			path = "Chordial-Music";
+			sourceTree = "<group>";
+		};
+		4CD295611DF37192003C0CDD /* Chordial-MusicTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CD295621DF37192003C0CDD /* Chordial_MusicTests.swift */,
+				4CD295641DF37192003C0CDD /* Info.plist */,
+			);
+			path = "Chordial-MusicTests";
+			sourceTree = "<group>";
+		};
+		4CD2956C1DF37192003C0CDD /* Chordial-MusicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4CD2956D1DF37192003C0CDD /* Chordial_MusicUITests.swift */,
+				4CD2956F1DF37192003C0CDD /* Info.plist */,
+			);
+			path = "Chordial-MusicUITests";
+			sourceTree = "<group>";
+		};
+		4CD295831DF3763D003C0CDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CD295861DF376FF003C0CDD /* SystemConfiguration.framework */,
+				4CD295841DF376FA003C0CDD /* AVFoundation.framework */,
+				4CD2957F1DF37639003C0CDD /* SpotifyAudioPlayback.framework */,
+				4CD295801DF37639003C0CDD /* SpotifyAuthentication.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CD295491DF37192003C0CDD /* Chordial-Music */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CD295721DF37192003C0CDD /* Build configuration list for PBXNativeTarget "Chordial-Music" */;
+			buildPhases = (
+				4CD295461DF37192003C0CDD /* Sources */,
+				4CD295471DF37192003C0CDD /* Frameworks */,
+				4CD295481DF37192003C0CDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Chordial-Music";
+			productName = "Chordial-Music";
+			productReference = 4CD2954A1DF37192003C0CDD /* Chordial-Music.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CD2955D1DF37192003C0CDD /* Chordial-MusicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CD295751DF37192003C0CDD /* Build configuration list for PBXNativeTarget "Chordial-MusicTests" */;
+			buildPhases = (
+				4CD2955A1DF37192003C0CDD /* Sources */,
+				4CD2955B1DF37192003C0CDD /* Frameworks */,
+				4CD2955C1DF37192003C0CDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CD295601DF37192003C0CDD /* PBXTargetDependency */,
+			);
+			name = "Chordial-MusicTests";
+			productName = "Chordial-MusicTests";
+			productReference = 4CD2955E1DF37192003C0CDD /* Chordial-MusicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4CD295681DF37192003C0CDD /* Chordial-MusicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CD295781DF37192003C0CDD /* Build configuration list for PBXNativeTarget "Chordial-MusicUITests" */;
+			buildPhases = (
+				4CD295651DF37192003C0CDD /* Sources */,
+				4CD295661DF37192003C0CDD /* Frameworks */,
+				4CD295671DF37192003C0CDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CD2956B1DF37192003C0CDD /* PBXTargetDependency */,
+			);
+			name = "Chordial-MusicUITests";
+			productName = "Chordial-MusicUITests";
+			productReference = 4CD295691DF37192003C0CDD /* Chordial-MusicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CD295421DF37192003C0CDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Ziv Kaputa";
+				TargetAttributes = {
+					4CD295491DF37192003C0CDD = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = SG9A88SUWF;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+					};
+					4CD2955D1DF37192003C0CDD = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = SG9A88SUWF;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4CD295491DF37192003C0CDD;
+					};
+					4CD295681DF37192003C0CDD = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = SG9A88SUWF;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4CD295491DF37192003C0CDD;
+					};
+				};
+			};
+			buildConfigurationList = 4CD295451DF37192003C0CDD /* Build configuration list for PBXProject "Chordial-Music" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CD295411DF37192003C0CDD;
+			productRefGroup = 4CD2954B1DF37192003C0CDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CD295491DF37192003C0CDD /* Chordial-Music */,
+				4CD2955D1DF37192003C0CDD /* Chordial-MusicTests */,
+				4CD295681DF37192003C0CDD /* Chordial-MusicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CD295481DF37192003C0CDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CD295581DF37192003C0CDD /* LaunchScreen.storyboard in Resources */,
+				4C08E0D01DF78D7400E462ED /* 2241-07-3.jpg in Resources */,
+				4CCFF5E41DF635F400864B86 /* QueueButtonIconPressed.png in Resources */,
+				4CD295551DF37192003C0CDD /* Assets.xcassets in Resources */,
+				4C08E0D21DF7954E00E462ED /* default_song_album.jpg in Resources */,
+				4CCFF5E21DF6350E00864B86 /* QueueButtonIcon.png in Resources */,
+				4CD295531DF37192003C0CDD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CD2955C1DF37192003C0CDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CD295671DF37192003C0CDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CD295461DF37192003C0CDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CCFF5E81DF63A1F00864B86 /* QueueViewController.swift in Sources */,
+				4CD295501DF37192003C0CDD /* ViewController.swift in Sources */,
+				4CCFF5EE1DF6912E00864B86 /* SwiftyJSON.swift in Sources */,
+				4CCFF5EA1DF682AB00864B86 /* ChordialRequests.swift in Sources */,
+				4CCFF5E61DF6367900864B86 /* PlayerViewController.swift in Sources */,
+				4CCFF5F41DF7540000864B86 /* CreateSessionViewController.swift in Sources */,
+				4CD2954E1DF37192003C0CDD /* AppDelegate.swift in Sources */,
+				4CCFF5F01DF69F9500864B86 /* FriendsViewController.swift in Sources */,
+				4CCFF5EC1DF687C800864B86 /* MainViewController.swift in Sources */,
+				4C7826301DF58E5B00D0F358 /* SongCell.swift in Sources */,
+				4CCFF5F21DF6A5EA00864B86 /* JoinSessionViewController.swift in Sources */,
+				4CD2957D1DF3745B003C0CDD /* Spotify.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CD2955A1DF37192003C0CDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CD295631DF37192003C0CDD /* Chordial_MusicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CD295651DF37192003C0CDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CD2956E1DF37192003C0CDD /* Chordial_MusicUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CD295601DF37192003C0CDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CD295491DF37192003C0CDD /* Chordial-Music */;
+			targetProxy = 4CD2955F1DF37192003C0CDD /* PBXContainerItemProxy */;
+		};
+		4CD2956B1DF37192003C0CDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CD295491DF37192003C0CDD /* Chordial-Music */;
+			targetProxy = 4CD2956A1DF37192003C0CDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4CD295511DF37192003C0CDD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CD295521DF37192003C0CDD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4CD295561DF37192003C0CDD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CD295571DF37192003C0CDD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CD295701DF37192003C0CDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4CD295711DF37192003C0CDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CD295731DF37192003C0CDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = SG9A88SUWF;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Chordial-Music/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "ziv.Chordial-Music";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Chordial-Music/Chordial-Music-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4CD295741DF37192003C0CDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = SG9A88SUWF;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Chordial-Music/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "ziv.Chordial-Music";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Chordial-Music/Chordial-Music-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4CD295761DF37192003C0CDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = SG9A88SUWF;
+				INFOPLIST_FILE = "Chordial-MusicTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ziv.Chordial-MusicTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chordial-Music.app/Chordial-Music";
+			};
+			name = Debug;
+		};
+		4CD295771DF37192003C0CDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = SG9A88SUWF;
+				INFOPLIST_FILE = "Chordial-MusicTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ziv.Chordial-MusicTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chordial-Music.app/Chordial-Music";
+			};
+			name = Release;
+		};
+		4CD295791DF37192003C0CDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = SG9A88SUWF;
+				INFOPLIST_FILE = "Chordial-MusicUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ziv.Chordial-MusicUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Chordial-Music";
+			};
+			name = Debug;
+		};
+		4CD2957A1DF37192003C0CDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = SG9A88SUWF;
+				INFOPLIST_FILE = "Chordial-MusicUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ziv.Chordial-MusicUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Chordial-Music";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CD295451DF37192003C0CDD /* Build configuration list for PBXProject "Chordial-Music" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CD295701DF37192003C0CDD /* Debug */,
+				4CD295711DF37192003C0CDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CD295721DF37192003C0CDD /* Build configuration list for PBXNativeTarget "Chordial-Music" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CD295731DF37192003C0CDD /* Debug */,
+				4CD295741DF37192003C0CDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CD295751DF37192003C0CDD /* Build configuration list for PBXNativeTarget "Chordial-MusicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CD295761DF37192003C0CDD /* Debug */,
+				4CD295771DF37192003C0CDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CD295781DF37192003C0CDD /* Build configuration list for PBXNativeTarget "Chordial-MusicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CD295791DF37192003C0CDD /* Debug */,
+				4CD2957A1DF37192003C0CDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CD295421DF37192003C0CDD /* Project object */;
+}
